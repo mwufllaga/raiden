@@ -1,0 +1,26 @@
+.horizontalFlexWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.verticalFlexWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.agileFlex {
+  flex: 1 1 200px;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body .el-tabs .el-tabs__header {
+  margin: 0;
+}
+body .el-select {
+  height: 32px;
+}
